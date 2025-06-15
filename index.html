@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Kółko-krzyżyk</title>
+    <link rel="stylesheet" href="tictactoe_style.css">
+</head>
+<body>
+    <h1>Kółko-krzyżyk</h1>
+    <div id="game">
+        <label for="gameMode">Tryb gry: </label>
+        <select id="gameMode">
+            <option value="twoPlayers">2 graczy</option>
+            <option value="vsAI">1 gracz vs AI</option>
+        </select>
+        <label for="boardSize">Rozmiar planszy: </label>
+        <select id="boardSize">
+            <option value="3">3x3</option>
+            <option value="4">4x4</option>
+            <option value="5">5x5</option>
+        </select>
+        <div id="board"></div>
+        <div id="status"></div>
+        <button id="restart">Restartuj grę</button>
+    </div>
+    <script src="tictactoe_script.js"></script>
+</body>
+</html>
